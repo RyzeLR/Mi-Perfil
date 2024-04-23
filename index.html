@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Bienvenidos a mi perfil:</h1>
+    </header>
+    <main>
+      <section>
+        <img src="img/ryze.jpeg" alt="foto mia" />
+        <h2>Mi biografia:</h2>
+        <ol>
+          <li>Nombre: Jeremias Ezequiel</li>
+          <li>Apellido: Bazan</li>
+          <li>Edad: 19 años</li>
+          <li>Gmail: ezebazan2005@gmail.com</li>
+        </ol>
+        <p>
+          Soy de La Rioja-Argentina, me gusta entrenar y entre al curso de
+          programacion porque me parece interesante aprender sobre esto
+        </p>
+      </section>
+    </main>
+
+    <fieldset>
+      <section>
+        <h2>Contactame</h2>
+        <form>
+          <div>
+            <label for="user">Nombre de usuario</label>
+            <input
+              type="text"
+              id="user"
+              placeholder="Ezequiel Bazan"
+              required
+            />
+          </div>
+
+          <div>
+            <label for="number">Telefono</label>
+            <input type="tel" id="number" placeholder="+543804" required />
+          </div>
+
+          <div>
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="ezebazan2005@gmail.com"
+              required
+            />
+          </div>
+          <!-- ! ESTE ES UN ERROR -->
+          <!-- * ESTE ES UN COMMENT IMPORTANTE -->
+          <!-- TODO: HOLA TODO MUNDO -->
+
+          <div>
+            <input type="checkbox" />
+            <label for="check">Acepto los terminos y condiciones</label>
+            <br />
+            <a href="#">Ver terminos y condiciones</a>
+          </div>
+
+          <div>
+            <p>Valorant o CSGO</p>
+            <input type="radio" id="valorant" name="juego" />
+            <label for="valorant">Valorant</label>
+          </div>
+          <div>
+            <input type="radio" id="counter" name="juego" />
+            <label for="counter">Counter</label>
+          </div>
+
+          <div>
+            <label for="mensaje">Justifica tu respuesta</label>
+            <br />
+            <textarea
+              name="mensaje"
+              id="mensaje"
+              cols="30"
+              rows="10"
+              placeholder="Tu respuesta"
+            ></textarea>
+          </div>
+
+          <div>
+            <input type="submit" value="Enviar form" />
+          </div>
+        </form>
+      </section>
+    </fieldset>
+
+    <footer>
+      <p>Created whit RyzeLR para GITHUB</p>
+    </footer>
+  </body>
+</html>
