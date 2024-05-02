@@ -9,11 +9,10 @@
 
   <body>
     <header>
-      <h1 class="h1">Bienvenidos a mi perfil:</h1>
+      <h1 class="h1">BIENVENIDOS A MI PERFIL</h1>
     </header>
     <main>
       <section>
-        <img src="img/ryze.jpeg" alt="foto mia" class="img" />
         <div class="biografia">
           <h2>Mi biografia:</h2>
           <ol>
@@ -26,6 +25,7 @@
             Soy de La Rioja-Argentina, me gusta entrenar y entre al curso de
             programacion porque me parece interesante aprender sobre esto
           </p>
+          <img src="img/ryze.jpeg" alt="foto mia" class="img" />
         </div>
       </section>
     </main>
@@ -35,6 +35,8 @@
         <h2>Contactame</h2>
         <form>
           <div>
+            <label>Nombre</label>
+            <br />
             <input
               class="controls"
               type="text"
@@ -44,6 +46,8 @@
           </div>
 
           <div>
+            <label>Telefono</label>
+            <br />
             <input
               class="controls"
               type="tel"
@@ -53,6 +57,8 @@
           </div>
 
           <div>
+            <label>Email</label>
+            <br />
             <input
               class="controls"
               type="email"
@@ -66,19 +72,21 @@
 
           <div>
             <input type="checkbox" />
-            <label for="check">Acepto los terminos y condiciones</label>
+            <label for="check"
+              >Acepto los <a href="#">terminos y condiciones</a></label
+            >
             <br />
-            <a href="#">Ver terminos y condiciones</a>
           </div>
 
           <div>
+            <h3>Encuesta</h3>
             <p>Valorant o CSGO</p>
             <input type="radio" id="valorant" name="juego" />
             <label for="valorant">Valorant</label>
           </div>
           <div>
             <input type="radio" id="counter" name="juego" />
-            <label for="counter">Counter</label>
+            <label for="counter">CSGO</label>
           </div>
 
           <div>
@@ -90,7 +98,7 @@
               id="mensaje"
               cols="30"
               rows="10"
-              placeholder="Tu respuesta"
+              placeholder="...."
             ></textarea>
           </div>
 
@@ -101,8 +109,8 @@
       </section>
     </fieldset>
 
-    <footer>
-      <p>Created whit RyzeLR para GITHUB</p>
+    <footer class="footer">
+      <p>Created whit RyzeLR for GitHub</p>
     </footer>
   </body>
 </html>
